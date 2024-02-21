@@ -6,7 +6,7 @@ int arr[21], a, b;
 void func(int arr[], int a, int b) {
 	int temp = 0;
 	
-	for(int i = 0; i < (b - a) / 2 + 1; i++) {
+	for(int i = 0; i < (b - a + 1) / 2; i++) {
 			temp = arr[a + i];
 			arr[a + i] = arr[b - i];
 			arr[b - i] = temp; 
