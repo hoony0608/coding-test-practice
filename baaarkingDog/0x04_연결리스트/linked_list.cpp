@@ -15,7 +15,7 @@ void insert(int addr, int num){
 }
 
 void erase(int addr){
-	pre[nxt[addr]] = pre[addr];
+	if(nxt[addr] != -1) pre[nxt[addr]] = pre[addr];
 	nxt[pre[addr]] = nxt[addr];
 	pre[addr] = -1;
 	nxt[addr] = -1;
