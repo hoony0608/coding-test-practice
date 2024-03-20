@@ -37,16 +37,6 @@ int main() {
 			DQ = DQ2;
 		}
 		
-		cout << "DQ1: ";
-		for(int ele: DQ1) cout << ele << " ";
-		cout << "\n";
-		
-		cout << "DQ2: ";
-		for(int ele: DQ2) cout << ele << " ";
-		cout << "\n";
-		
-		cout << "answer " << answer << "\n";
-		
 		DQ.pop_front();
 	}
 	
